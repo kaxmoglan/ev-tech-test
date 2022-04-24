@@ -14,7 +14,8 @@
 		"test:fe": "yarn workspace frontend run test",
 		"test:be": "yarn workspace backend run test test",
 		"db": "cd backend; docker-compose up -d; cd ..;",
-		"db:migrate": "cd backend; npx prisma migrate dev; cd ..;"
+		"db:migrate": "cd backend; npx prisma migrate dev; cd ..;",
+		"db:seed": "cd backend; npx prisma db seed; cd ..;"
 	},
 	"devDependencies": {
 		"jest": "^27.1.0"
