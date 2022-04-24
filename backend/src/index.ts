@@ -1,6 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import bodyParser from 'body-parser';
+import cors from 'cors';
 import { handleGetAllClients } from './controllers/handleGetAllClients';
 import { handleCreateNewClient } from './controllers/handleCreateNewClient';
 
@@ -10,6 +11,7 @@ const { HTTP_PORT } = process.env;
 
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 // Routes
 app.get(`/`, handleGetAllClients);
