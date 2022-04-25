@@ -10,6 +10,7 @@ import {
 // Pages
 import HomePage from './Pages/Home';
 import ClientsPage from './Pages/Clients';
+import NewClientPage from './Pages/NewClient';
 
 // Types
 import type { ReactElement } from 'react';
@@ -81,7 +82,7 @@ const AppFrame = (): ReactElement => {
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="/clients" element={<ClientsPage />} />
-				<Route path="/new-client"></Route>
+				<Route path="/new-client" element={<NewClientPage />}></Route>
 			</Routes>
 		</div>
 	);
