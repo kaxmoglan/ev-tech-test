@@ -13,6 +13,6 @@ You must have `Docker` and `docker-compose` installed.
 
 ## Run the project
 
-- `yarn run be` to start the back-end server
+- `yarn run be` to start the back-end development server
 - `yarn run fe` to start the front-end development server
 - `yarn run test` to run all front-end and back-end tests
