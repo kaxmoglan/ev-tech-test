@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"lib": ["dom", "dom.iterable"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx"
+	},
+	"include": ["src"]
+}
